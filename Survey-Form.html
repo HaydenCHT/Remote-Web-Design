@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="styles_Survey-Form.css">
+  </head>
+  <body>
+      <h1 id="title">Survey Form</h1>
+      <p id="description">A Survey</p>
+      <hr>
+      <form id="survey-form">
+        <fieldset>
+        <label for="name" id="name-label">Your name:
+          <input required id="name" name="name-label" type="text" placeholder="e.g. Leon Kennedy" />
+        </label>
+        <label for="email" id="email-label">Your email:
+          <input required id="email" name="email-label" type="email" placeholder="e.g. hi@example.com" />
+        </label>
+        <label for="number" id="number-label">Your age:
+          <input id="number" name="number-label" type="number" min="1" max="3" placeholder="e.g. 22"/>
+        </label>
+        Your Occupation:
+        <select id="dropdown">
+          <option value="1">Teacher</option>
+          <option value="2">Student</option>
+          <option value="3">Attack Helicopter</option>
+        </select>
+        </fieldset>
+        <fieldset>
+        <legend>Your Gender: </legend>
+          <label for="gender-male"><input id="gender-male" type="radio" name="gender" value="Male" class="inline" checked /> Male</label>
+          <label for="gender-female"><input id="gender-female" type="radio" name="gender" value="Female" class="inline" /> Female</label>
+        </fieldset>
+        <fieldset>
+          <legend>Your Hobbies: </legend>
+          <label for="hobby-gaming"><input id="hobby-gaming" type="checkbox" name="hobby" value="Gaming" class="inline" checked /> Gaming</label>
+          <label for="hobby-swimming"><input id="hobby-swimming" type="checkbox" name="hobby" value="Swimming" class="inline" /> Swimming</label>
+          <label for="hobby-running"><input id="hobby-running" type="checkbox" name="hobby" value="Running" class="inline" /> Running</label>
+        </fieldset>
+        <fieldset>
+          <legend>Additional Comments: </legend>
+          <textarea placeholder="I am interested in trying ..."></textarea>
+        </fieldset>
+        <input id="submit" type="submit" />
+      </form>
+  </body>
+</html>
