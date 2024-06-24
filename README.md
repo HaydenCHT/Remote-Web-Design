@@ -1,3 +1,3 @@
 # Responsive-Web-Design
 
-self-designed demo projects in freecodecamp
+self-design demo projects in freecodecamp
